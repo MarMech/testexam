@@ -1,0 +1,44 @@
+
+
+
+public class CapitalLettersTest {
+
+private Capital = capital;
+
+@test
+public void stringTake_firstLetterCapitalized_returnUpperCase(){
+Capital capital = new Capital(upperCase);
+when(upperCase.StringBuilder("Words")).thenReturn(0,1);
+string result = capital.StringBuilder("words");
+verify(upperCase.times(1)).stringTake("words");
+return substring(0.1);
+}
+
+@test
+public void stringTake_firstLetterCapitalized_returnAllUpperCase(){
+Capital capital = new Capital(upperCase);
+when(upperCase.StringBuilder("WORDS")).thenReturn(0);
+string result = capital.StringBuilder("words");
+verify(upperCase.times(1)).StringBuilder("words");
+return substring(0);
+}
+
+@test
+public void stringTake_firstLetterCapitalized_returnAllLowerCase(){
+Capital capital = new Capital(upperCase);
+when(upperCase.StringBuilder("words")).thenReturn(1);
+string result = capital.StringBuilder("words");
+verify(upperCase.times(1)).StringBuilder("words");
+return substring(1);
+}
+
+@test
+public void stringTake_firstLetterCapitalized_returnNothing(){
+Capital capital = new Capital(upperCase);
+when(upperCase.StringBuilder(" ")).thenReturn();
+string result = capital.StringBuilder(" ");
+verify(upperCase.times(1)).StringBuilder("");
+return("nothing");
+}
+}
+
